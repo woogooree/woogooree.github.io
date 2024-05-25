@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Gatsby 테마로 GitHub Blog 만들기","categories":"블로그 featured"},"fields":{"slug":"/gatsby-github-blog/"}}},{"node":{"frontmatter":{"title":"쉽고 빠르게 나만의 개츠비(Gatsby) 블로그 만들기","categories":"블로그 featured"},"fields":{"slug":"/gatsby-starter-zoomkoding-introduction/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"왜 전역변수가 아닌 static 키워드 변수를 사용하는가?","categories":"CS지식"},"fields":{"slug":"/cs_globalAndStatic/"}}}]}}}
