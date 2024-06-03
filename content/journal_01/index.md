@@ -1,7 +1,7 @@
 ---
 emoji: 📰
 title: (폴리텍학생기자단) 개발자 취직 코딩학원 vs 폴리텍대학, 어느 쪽이 유리할까?
-date: '2024-05-24'
+date: '2024-05-22'
 author: 심우진
 tags: 폴리텍 코딩학원 개발자취직 진로
 categories: JOURNAL
