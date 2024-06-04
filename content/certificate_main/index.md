@@ -60,6 +60,17 @@ https://woogooree.github.io/ceritificate_02
 https://woogooree.github.io/ceritificate_03
 
 
+### 4. 어플리케이션 테스트 관리
+
+https://woogooree.github.io/ceritificate_04
+
+
+### 5. SW개발 보안구축
+
+https://woogooree.github.io/ceritificate_05
+
+
+
 ## 코딩문제 요약
 
 (기출이 제일 중요하고 교재의 코딩관련 연습문제도 모두 풀어보세요)
