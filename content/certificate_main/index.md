@@ -60,7 +60,7 @@ https://woogooree.github.io/ceritificate_02
 https://woogooree.github.io/ceritificate_03
 
 
-### 4. 어플리케이션 테스트 관리
+### 4. 어플리케이션 테스트
 
 https://woogooree.github.io/ceritificate_04
 

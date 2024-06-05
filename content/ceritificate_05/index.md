@@ -1,7 +1,7 @@
 ---
 emoji: 🪪
-title: 2024 정보처리기사 실기 요약 - (4) SW개발 보안구축
-date: '2024-05-27'
+title: 2024 정보처리기사 실기 요약 - (5) SW개발 보안구축
+date: '2024-05-28'
 author: 심우진
 tags: 정보처리기사 정보처리기사실기 2024 요약정리
 categories: STUDY
@@ -15,7 +15,7 @@ categories: STUDY
 - 가용성(Availability) : 권한을 가진 사용자가 서비스를 원할 때 지속해서 사용할 수 있도록 보장하는 특성
 
 
-## DoS(Denial of Service, PC 1대가 직접 공격)
+## DoS (Denial of Service, PC 1대가 직접 공격)
 
 시스템을 악의적으로 공격해 해당 시스템의 자원을 부족하게 해 사용하지 못하게 하는 공격
 
@@ -32,17 +32,18 @@ categories: STUDY
 - 보잉크(Boink) : 정상 적인 패킷을 보내다가 중간에서 일정한 시퀀스 넘버를 보내 재조합을 유도하여 마비시킴
 
 
-## DDos(Distributed DoS, 감염된 PC 여러대가 동시에 공격)
+## DDos (Distributed DoS, 감염된 PC 여러대가 동시에 공격)
 
 여러 대의 공격자를 분산 배치하여 동시에 동작하게 함으로써 특정 사이트 공격
 
 ### DDoS 공격 도구
 
-Trinoo : 많은 소스로부터 통합된 UDP flood 서비스 거부 공격을 유발하는데 사용
-TFN(Tribe Flood Network) : Trinoo와 비슷한 분산 도구
-Stacheldraht : 분산 서비스 거부 에이전트 역할
+- Trinoo : 많은 소스로부터 통합된 UDP flood 서비스 거부 공격을 유발하는데 사용
+- TFN(Tribe Flood Network) : Trinoo와 비슷한 분산 도구
+- Stacheldraht : 분산 서비스 거부 에이전트 역할
+- C&C서버 : 좀비PC에 명령을 내리고 악성코드를 제어하는 서버
 
-## DRDoS(Distributed Refleection DoS)
+## DRDoS (Distributed Refleection DoS)
 
 공격자는 출발지 IP를 공격대상 IP로 위조하여 다수의 반사 서버로 요청 정보를 전송,
 공격 대상자는 반사 서버로부터 다량의 응답을 받아서 서비스 거부(DoS)가 되는 공격
@@ -61,7 +62,9 @@ Stacheldraht : 분산 서비스 거부 에이전트 역할
 
 - 스니핑(Sniffing) : 직접 공격을 하지 않고 데이터만 몰래 들여다보는 수동적 공격
 - 패스워드 크래킹(Password Cracking) : 무차별 혹은 가능성 있는 단어 조합을 패스워드 자리에 대입하여 해킹
+- 타이포스쿼팅 : 네이버 등 유명도메인의 스펠링 미스(maver.com 라던가)로 접속가능한 똑같이 만든 가짜사이트에 유도
 - 레인보우 테이블 공격 : 패스워드 별로 해시 값을 미리 생성해서 역으로 패스워드를 찾음
+- 세션 하이재킹 : 정상 연결을 끊고 세션을 가로채서 정보를 훔침
 - IP 스푸핑 : 대상을 속이기 위해서 본인의 패킷 헤더를 인증된 호스트의 IP로 위조하여 타깃에 전송
 - ARP 스푸핑 : 특정 호스트의 MAC 주소를 본인 MAC 주소로 위조하여 ARP Reply를 만듬
 - ICMP Redirect : 스니핑 시스템을 네트워크에 존재하는 또 다른 라우터라고 알림으로써 패킷의 흐름을 바꿈
@@ -99,6 +102,13 @@ Stacheldraht : 분산 서비스 거부 에이전트 역할
 - 난독화(Obfuscation) : 프로그램 코드의 일부 또는 전체를 변경하여 역공학에 대비
 - Tripwire : 크래커가 침입했을 때 알 수 있게 분석하는 도구, 데이터베이스 차이점 체크
 - Tcpdump : 네트워크 인터페이스를 거치는 패킷의 내용을 보여주는 도구, 모든 패킷 내용 도청할 수 있음
+- 워터링 홀 : 해킹목표가 자주가는 사이트를 감염시킴으로써 목표에게 악성코드를 넣는 기법
+- 사회공학 : 인간적인 신뢰를 이용한 비기술적 방법으로 시스템에 침입
+- 다크데이터 : 활용하지 않고 저장만 되어 있는 특정 분야에 대한 대량의 백데이터
+
+## 백도어 탐지법
+
+무결성검사, 열린포트 확인, 로그분석, SetUID
 
 
 ## 접근 통제 기법
@@ -157,7 +167,7 @@ Stacheldraht : 분산 서비스 거부 에이전트 역할
     - ECC : RSA 암호 방식 대안, 타원 곡선
 
 
-### 단방향(일방향, 복호화 불가능)
+### 단방향 (일방향, 복호화 불가능)
 
 - 해시 암호 방식 : MAC(키 사용), MDC(키 사용X)
     - MD5 : MD4개선, 프로그램이나 파일의 무결성 검사에 사용
@@ -167,12 +177,12 @@ Stacheldraht : 분산 서비스 거부 에이전트 역할
 
 
 
-## IPSec(Internet Protocol Security)
+## IPSec (Internet Protocol Security)
 
 IP계층에서 무결성과 인증을 보장하는 인증 헤더와 기밀성을 보장하는 암호화를 이용한 IP 보안 프로토콜
 인증, 암호화, 키 관리 프로토콜로 구성되어 있음
 
-## SSL(Secure Socket Layer)/TLS(Transport Layer Security)
+## SSL (Secure Socket Layer)/TLS(Transport Layer Security)
 
 전송계층과 응용계층 사이에서 클라이언트와 서버 간의 웹 데이터 암호화, 상호 인증 및 전송 시 데이터 무결성을 보장하는 보안 프로토콜, SSH(원격접속 보안 프로토콜)과 햇갈리지 않도록 주의
 
@@ -181,6 +191,13 @@ IP계층에서 무결성과 인증을 보장하는 인증 헤더와 기밀성을
 웹 상에서 네트워크 트래픽을 암호화하는 주요 방법
 전송되는 모든 메시지를 각각 암호화해 전송하는 기술
 
+## SEIM (Security Information & Event Management)
+
+로그 및 보안 이벤트 통합관리 솔루션
+
+## ISMS (Information Security Management System)
+
+한국인터넷진흥원에서 운영하는 정보보호관리체계
 
 ## 개인정보보호 관련 법령
 
