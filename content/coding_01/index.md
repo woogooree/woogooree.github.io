@@ -191,7 +191,7 @@ bool result_ = strEndsWith("Hi"); // False
 bool result = str.Contains("Morning"); //True
 bool reseult_ = str.Contains("morning"); //False
 
-// 지정된 문자열을 찾아 다른 문자여롤 변환
+// 지정된 문자열을 찾아 다른 문자열을 변환
 string result = str.Replace("Morning", "evening")
 ```
 
