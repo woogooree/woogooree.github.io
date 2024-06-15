@@ -48,41 +48,41 @@ categories: STUDY
 
 ### 1. 요구사항
 
-https://woogooree.github.io/ceritificate_01
+https://woogooree.github.io/certificate_01
 
 
 ### 2. 데이터입출력
 
-https://woogooree.github.io/ceritificate_02
+https://woogooree.github.io/certificate_02
 
 
 ### 3. UI구현, 서버구현, 통합구현
 
-https://woogooree.github.io/ceritificate_03
+https://woogooree.github.io/certificate_03
 
 
 ### 4. 어플리케이션 테스트
 
-https://woogooree.github.io/ceritificate_04
+https://woogooree.github.io/certificate_04
 
 
 ### 5. SW개발 보안구축
 
-https://woogooree.github.io/ceritificate_05
+https://woogooree.github.io/certificate_05
 
 ### 6. SW기초활용, 패키징
 
-https://woogooree.github.io/ceritificate_06
+https://woogooree.github.io/certificate_06
 
 ## 프로그래밍 문제
 
 ### 7. 코딩 핵심 요약
 
-https://woogooree.github.io/ceritificate_07
+https://woogooree.github.io/certificate_07
 
 ### 8. SQL 핵심 요약
 
-https://woogooree.github.io/ceritificate_08
+https://woogooree.github.io/certificate_08
 
 
 #### 부족한 내용 보충중
