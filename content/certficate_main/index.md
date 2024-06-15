@@ -42,8 +42,9 @@ categories: STUDY
 
 필기에 나온 5과목을 실제 개발 프로젝트가 진행되는 순서에 맞게 각 단계 별로 필요한 지식이 무엇인지 정리하는 방식으로 암기하시는게 나중에 일할 때 필요한 지식을 배운다 생각해서 잘 외워지고, 코딩 문제에서 난이도 낮은 문제들이 푸는데 어떤 개념들이 필요한지 파악해서 실수하지 않아야 합니다.
 
+# 공부내용 모음
 
-## 이론 요약
+## 이론 문제
 
 ### 1. 요구사항
 
@@ -69,13 +70,23 @@ https://woogooree.github.io/ceritificate_04
 
 https://woogooree.github.io/ceritificate_05
 
+### 6. SW기초활용, 패키징
+
+https://woogooree.github.io/ceritificate_06
+
+## 프로그래밍 문제
+
+### 7. 코딩 핵심 요약
+
+https://woogooree.github.io/ceritificate_07
+
+### 8. SQL 핵심 요약
+
+https://woogooree.github.io/ceritificate_08
 
 
-## 코딩문제 요약
+#### 부족한 내용 보충 ~ing
 
-(기출이 제일 중요하고 교재의 코딩관련 연습문제도 모두 풀어보세요)
-
-(업로드 예정)
 
 ```toc
 
