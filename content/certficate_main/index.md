@@ -85,8 +85,7 @@ https://woogooree.github.io/ceritificate_07
 https://woogooree.github.io/ceritificate_08
 
 
-#### 부족한 내용 보충 ~ing
-
+#### 부족한 내용 보충중
 
 ```toc
 

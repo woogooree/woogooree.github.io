@@ -7,7 +7,7 @@ tags: 데이터타입 리터럴 박싱 스택 힙
 categories: CODING
 ---
 
-## C# 형변환
+## 형변환
 
 ```c#
 int i = 10;
