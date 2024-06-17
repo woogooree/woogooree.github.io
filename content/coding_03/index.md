@@ -4,7 +4,7 @@ title: Visual Studio 유용한 단축키
 date: '2024-06-09'
 author: 심우진
 tags: 코드정리 작업목록 화면분할
-categories: CODING
+categories: 개발상식
 ---
 
 ## Control + K + E

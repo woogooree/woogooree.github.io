@@ -4,7 +4,7 @@ title: Visual Studio 필드변수 언더바 자동생성
 date: '2024-06-10'
 author: 심우진
 tags: 코드정리 작업목록 화면분할
-categories: CODING
+categories: 개발상식
 ---
 
 
