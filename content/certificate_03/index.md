@@ -4,7 +4,7 @@ title: 2024 정보처리기사 실기 요약 - (3) UI구현 ~ 통합구현
 date: '2024-05-26'
 author: 심우진
 tags: 정보처리기사 정보처리기사실기 2024 요약정리
-categories: STUDY
+categories: 정보처리기사
 ---
 
 

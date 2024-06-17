@@ -4,7 +4,7 @@ title: 2024 정보처리기사 실기 요약 - (5) SW개발 보안구축
 date: '2024-05-28'
 author: 심우진
 tags: 정보처리기사 정보처리기사실기 2024 요약정리
-categories: STUDY
+categories: 정보처리기사
 ---
 
 

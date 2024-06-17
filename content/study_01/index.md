@@ -4,7 +4,7 @@ title: 왜 전역변수가 아닌 static 키워드 변수를 사용하는가?
 date: '2024-05-21'
 author: 심우진
 tags: 변수
-categories: STUDY
+categories: 개발상식
 ---
 
 ## 전역(global) 변수

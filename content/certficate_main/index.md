@@ -4,7 +4,7 @@ title: 2024 정보처리기사 후기 및 요약정리
 date: '2024-05-23'
 author: 심우진
 tags: 정보처리기사 정보처리기사필기 정보처리기사실기
-categories: STUDY
+categories: 정보처리기사
 ---
 
 ## 개요
