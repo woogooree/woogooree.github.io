@@ -4,7 +4,7 @@ title: C# 데이터타입과 형변환
 date: '2024-06-07'
 author: 심우진
 tags: 데이터타입 리터럴 박싱 스택 힙
-categories: C#
+categories: WPF
 ---
 
 ## 형변환
