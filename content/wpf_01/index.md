@@ -1,91 +1,74 @@
 ---
-emoji: 💡
-title: WPF 화면이동 구현 - Page 사용
+emoji: 📁
+title: WPF의 디렉토리 구조 및 MVVM 패턴
 date: '2024-06-15'
 author: 심우진
-tags: wpf 레이아웃 화면이동
+tags: WPF, MVVM, 디렉토리 구조, 소프트웨어 엔지니어링
 categories: WPF
+
 ---
 
-## 시작은 MainWindow
+## WPF 프로젝트의 디렉토리 구조
 
-#### MainWindow.xaml
+### 솔루션 파일 (.sln)
 
-```xaml
-<Window x:Class="WPF_Tutorial.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF_Tutorial"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Frame Source="/MenuPage.xaml"></Frame>
-    </Grid>
-</Window>
+솔루션 파일(.sln)은 Visual Studio 솔루션의 구성 요소를 정의하는 파일로 디렉토리 최상위에 있다. 이 파일은 하나 이상의 프로젝트를 포함할 수 있으며, 개발자가 프로젝트를 열고 빌드하는 데 중요한 역할을 한다.
+
+### 프로젝트 파일 (.csproj)
+
+프로젝트 파일(.csproj)은 C# 프로젝트의 설정을 정의하는 파일이다. 이 파일에는 프로젝트의 빌드 구성, 참조하는 라이브러리, 컴파일할 소스 파일 목록 등이 포함된다. 프로젝트 파일은 프로젝트의 빌드와 배포를 관리하며, 다양한 설정을 통해 프로젝트의 동작을 정의할 수 있다.
+
+- **Properties**: 프로젝트의 속성을 포함하며, 주로 `AssemblyInfo.cs` 파일이 위치한다. 이 파일은 어셈블리의 메타데이터를 정의하며, 빌드와 배포 시 중요한 역할을 한다.
+- **References**: 프로젝트에서 참조하는 외부 라이브러리나 어셈블리들. 프로젝트가 의존하는 외부 코드나 프레임워크를 관리한다.
+- **App.xaml**: 응용 프로그램의 리소스, 스타일, 테마 등을 정의하는 파일. 애플리케이션의 전반적인 설정과 리소스를 관리하며, 공통 스타일과 리소스를 정의한다.
+- **MainWindow.xaml**: 기본적으로 생성되는 주 윈도우 파일. 사용자 인터페이스의 메인 엔트리 포인트가 된다.
+- **MainWindow.xaml.cs**: `MainWindow.xaml`의 코드 비하인드 파일. 이벤트 핸들러와 로직이 구현된다.
+
+이 기본 구조를 바탕으로, 프로젝트의 복잡성에 따라 폴더와 파일을 추가하여 조직화할 수 있다.
+
+
+## MVVM 패턴일 경우 디렉토리 구성
+
+MVVM (Model-View-ViewModel) 패턴은 WPF 애플리케이션에서 가장 널리 사용되는 디자인 패턴이다.
+
+- **Model**: 데이터와 비즈니스 로직을 포함하는 클래스들이 위치하는 폴더. 이 폴더에는 데이터베이스 모델, 비즈니스 엔티티, 데이터 접근 로직이 포함된다.
+- **View**: 사용자 인터페이스 요소를 포함하는 XAML 파일들이 위치하는 폴더. 이 폴더에는 화면을 구성하는 XAML 파일과 그 코드 비하인드 파일이 포함된다.
+- **ViewModel**: 뷰와 모델 사이의 중개자 역할을 하는 클래스들이 위치하는 폴더. 뷰 모델은 데이터 바인딩과 커맨드를 처리하며, 뷰와 모델 간의 로직을 관리한다.
+
+### 간단한 예시
+
+다음은 MVVM 패턴을 적용한 WPF 프로젝트의 디렉토리 구조 예시이다.
+
+```
+MyWpfApp.sin
+
+MyWpfApp/
+├── Model/
+│   ├── Customer.cs
+│   └── Order.cs
+├── View/
+│   ├── MainWindow.xaml
+│   └── CustomerView.xaml
+├── ViewModel/
+│   ├── MainViewModel.cs
+│   └── CustomerViewModel.cs
+├── App.xaml
+├── App.xaml.cs
+└── MyWpfApp.csproj
 ```
 
-그리드에 Frame 태그의 Source에 MenuPage링크를 직접 넣어주면 MenuPage의 화면이 띄워짐
+### 새로운 클래스(.cs) 파일과 XAML 파일 배치 기준
 
-#### MenuPage.xaml (그리드부분)
+새로운 클래스(.cs) 파일과 XAML 파일을 배치할 때의 기준은 다음과 같다.
 
-```xaml
-<Grid>
-    <Grid.RowDefinitions>
-        <RowDefinition Height="1*"></RowDefinition>
-        <RowDefinition Height="1*"></RowDefinition>
-    </Grid.RowDefinitions>
+- **Model 클래스**: 데이터와 비즈니스 로직을 포함하는 클래스는 `Model` 폴더에 배치한다. 예를 들어, 고객 데이터를 처리하는 `Customer.cs` 파일은 `Model` 폴더에 위치시킨다. 이는 비즈니스 로직과 데이터 구조가 독립적으로 관리되도록 한다.
+  
+- **View 클래스**: 사용자 인터페이스 요소를 포함하는 XAML 파일은 `View` 폴더에 배치한다. 예를 들어, 고객 정보를 표시하는 `CustomerView.xaml` 파일은 `View` 폴더에 위치시킨다. 이는 UI 요소가 논리적으로 분리되어 관리되도록 한다.
+  
+- **ViewModel 클래스**: 뷰와 모델 사이의 중개자 역할을 하는 클래스는 `ViewModel` 폴더에 배치한다. 예를 들어, `CustomerView.xaml`과 연결된 로직을 처리하는 `CustomerViewModel.cs` 파일은 `ViewModel` 폴더에 위치시킨다. 이는 프레젠테이션 로직과 UI 로직이 독립적으로 관리되도록 한다.
 
-    <Grid Grid.Row="0">
-        <Button Width="200" Height="80" Click="Button_Click_1" Content="Hello"></Button>
-    </Grid>
-    <Grid Grid.Row="1">
-        <Button Width="200" Height="80" Click="Button_Click_2" Content="World"></Button>
-    </Grid>
-</Grid>
+이러한 디렉토리 구조를 유지함으로써 코드의 가독성과 유지보수성을 높일 수 있으며, 각 계층 간의 역할이 명확하게 분리되어 협업 시에도 효율적으로 작업할 수 있다. 또한, 각 컴포넌트의 테스트 용이성을 높여, 전체 시스템의 안정성을 향상시킬 수 있다.
+
+```toc
+
 ```
-
-화면을 Row를 이용해 2분할하고 Hello 버튼과 World 버튼을 넣고 각각의 클릭 이벤트를 만듬
-- 넓이와  넓이를 직접 지정해주면 자식 요소는 부모 요소의 크기 만큼 당겨주는 특징 때문에 가운데 정렬됨
-
-#### MenuPage.cs
-
-```C#
-namespace WPF_Tutorial
-{
-    /// <summary>
-    /// MenuPage.xaml에 대한 상호 작용 논리
-    /// </summary>
-    public partial class MenuPage : Page
-    {
-        public MenuPage()
-        {
-            InitializeComponent();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Uri uri = new Uri("/page1.xaml", UriKind.Relative);
-            NavigationService.Navigate(uri);
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            Uri uri = new Uri("/page2.xaml", UriKind.Relative);
-            NavigationService.Navigate(uri);
-        }
-    }
-}
-```
-
-각 버튼의 클릭이벤트에서 URI를 생성하고 Navigate 를 이용해 각 페이지로 이동하도록 구현함
-- page1.xaml 과 page2.xaml은 Grid 안에 TextBlock을 만들어서 Hello 와 World 를 찍었음
-
-## 결과
-
-![wpfProject1_img_01.png](./wpfProject1_img_01.png)
-
-각 버튼을 누르면 가운데에 Hello 와 World 가 출력됨
-WPF는 뒤로가기를 구현하지 않아도 자동으로 생성됨
-
