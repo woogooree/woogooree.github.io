@@ -1,10 +1,10 @@
 ---
 emoji: 💡
 title: Visual Studio 유용한 단축키
-date: '2024-06-09'
+date: '2024-06-01'
 author: 심우진
 tags: 코드정리 작업목록 화면분할
-categories: 개발상식
+categories: 개발환경
 ---
 
 ## Control + K + E

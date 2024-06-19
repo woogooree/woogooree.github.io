@@ -1,7 +1,7 @@
 ---
 emoji: 📁
 title: WPF의 디렉토리 구조 및 MVVM 패턴
-date: '2024-06-15'
+date: '2024-06-07'
 author: 심우진
 tags: WPF, MVVM, 디렉토리 구조, 소프트웨어 엔지니어링
 categories: WPF

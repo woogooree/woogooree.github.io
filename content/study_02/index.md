@@ -4,7 +4,7 @@ title: TCP/IP 소켓 프로그래밍
 date: '2024-06-16'
 author: 심우진
 tags: 통신 소켓 TCP
-categories: 개발상식
+categories: 컴퓨터이론
 ---
 
 

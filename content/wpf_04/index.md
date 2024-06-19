@@ -1,7 +1,7 @@
 ---
 emoji: 💡
 title: WPF 화면이동 구현 - Page 사용
-date: '2024-06-15'
+date: '2024-06-10'
 author: 심우진
 tags: wpf 레이아웃 화면이동
 categories: WPF
