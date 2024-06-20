@@ -50,7 +50,7 @@ module.exports = {
       // ========================================================
       {
         date: '2024.01',
-        activity: '개발 시작 (JAVA & JSP 기초)',
+        activity: '개발 공부 시작 (JAVA & JSP 기초)',
       },
       // ========================================================
       // ========================================================
@@ -69,6 +69,13 @@ module.exports = {
       {
         date: '2024.06',
         activity: '정보처리기사 취득',
+        links: {
+          github: '',
+          post: '/certificate_main',
+          googlePlay: '',
+          appStore: '',
+          demo: '',
+        },
       },
     ],
 
@@ -95,7 +102,7 @@ module.exports = {
         description:
           '2024.03 ~ 2024.11 전력관리 플랫폼 KEPSI 프로젝트',
         techStack: ['flutter', 'Firebase', 'Embedded'],
-        thumbnailUrl: '../content/projectK_01/KEPSI.png',
+        thumbnailUrl: 'KEPSI.png',
         links: {
           post: '/projectK_01',
           github: 'https://github.com/woogooree/KEPSI',
