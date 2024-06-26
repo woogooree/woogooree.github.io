@@ -98,9 +98,23 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
+        title: '2023 GNU-VMU 글로벌 캡스톤디자인 프로그램',
+        description:
+          '2022.09 - 2023.07 글로벌 캡스톤디자인 탄소중립 화장품개발 프로젝트(1위)로 베트남 현지기업 탐방',
+        techStack: ['presentation'],
+        thumbnailUrl: 'capstone.png',
+        links: {
+          post: '/projectC_01',
+          github: '',
+          demo: 'https://www.gnu.ac.kr/linc/na/ntt/selectNttInfo.do?mi=11803&bbsId=4085&nttSn=2192268',
+        },
+      },
+      // ========================================================
+      // ========================================================
+      {
         title: '2024 ICT멘토링 한이음공모전',
         description:
-          '2024.03 ~ 2024.11 전력관리 플랫폼 KEPSI 프로젝트',
+          '2024.03 - 2024.11 전력관리 플랫폼 KEPSI 프로젝트',
         techStack: ['flutter', 'Firebase', 'Embedded'],
         thumbnailUrl: 'KEPSI.png',
         links: {
