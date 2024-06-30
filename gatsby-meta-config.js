@@ -118,7 +118,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '2023 GNU-VMU 글로벌캡스톤디자인',
+        title: '2023 GNU-VMU 글로벌캡스톤디자인 팀프로젝트',
         description:
           '2022.09 - 2023.07 글로벌캡스톤디자인 탄소중립 화장품개발 프로젝트(1위)로 베트남 현지기업 탐방경험 및 영어 프레젠테이션 경험',
         techStack: ['presentation'],
@@ -132,7 +132,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '2024 ICT멘토링 한이음공모전',
+        title: '2024 ICT멘토링 한이음공모전 팀프로젝트',
         description:
           '2024.03 - 2024.11 전력관리 플랫폼 KEPSI 라는 주제로 참여하여 시리얼통신과 전력데이터 파싱과 API연동을 메인으로 서버와 앱까지 구현하는 프로젝트',
         techStack: ['flutter', 'Firebase', 'Embedded'],
@@ -140,6 +140,20 @@ module.exports = {
         links: {
           post: '/projectK_01',
           github: 'https://github.com/woogooree/KEPSI',
+          demo: '',
+        },
+      },
+      // ========================================================
+      // ========================================================
+      {
+        title: 'WPF TCP통신 채팅프로그램 개인프로젝트',
+        description:
+          '2024.06 비주얼스튜디오 환경에서 WPF로 MVVM 패턴을 적용하고, Xaml 디자인을 구현하고, TCP를 사용하는 채팅앱을 서버-클라이언트 구조로 개발한 개인프로젝트',
+        techStack: ['WPF', 'Firebase', 'datNet'],
+        thumbnailUrl: 'TCPchat.png',
+        links: {
+          post: '/projectT_01',
+          github: 'https://github.com/woogooree/WpfChat',
           demo: '',
         },
       },
