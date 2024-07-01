@@ -4,7 +4,7 @@ title: Jetson Nano eMMC 리눅스 설치
 date: '2024-06-06'
 author: 심우진
 tags: 임베디드 젯슨나노 리눅스
-categories: LINUX
+categories: DevOps
 ---
 ## VMware 가상머신 설치
 

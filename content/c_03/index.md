@@ -4,7 +4,7 @@ title: C 언어 파일 입출력
 date: '2024-06-18'
 author: 심우진
 tags: C언어 입출력구현
-categories: C언어계열
+categories: 기초공부
 ---
 
 ## C 언어 파일 입출력

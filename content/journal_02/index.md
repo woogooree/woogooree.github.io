@@ -4,7 +4,7 @@ title: (폴리텍학생기자단) AI소프트웨어과 기업 간담회 후기
 date: '2024-06-16'
 author: 심우진
 tags: 학생기자단 
-categories: 프로젝트
+categories: 대외활동
 ---
 
 ![AI_meeting_01.jpg](./AI_meeting_01.jpg)

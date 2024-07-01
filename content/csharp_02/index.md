@@ -4,7 +4,7 @@ title: C# 배열 인덱싱
 date: '2024-06-04'
 author: 심우진
 tags: 배열 인덱싱 슬라이스
-categories: C언어계열
+categories: 기초공부
 ---
 
 ## 배열 인덱싱 '^연산자'

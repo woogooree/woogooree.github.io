@@ -4,7 +4,7 @@ title: 경상대학교 글로벌캡스톤디자인 프로그램 참여
 date: '2024-05-21'
 author: 심우진
 tags: 캡스톤디자인 베트남 탄소중립
-categories: 프로젝트
+categories: 대외활동
 ---
 
 ## 캡스톤디자인 주제

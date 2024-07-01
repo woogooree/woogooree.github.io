@@ -4,7 +4,7 @@ title: WPF TCP 채팅 프로젝트
 date: '2024-06-24'
 author: 심우진
 tags: WPF TCP Socket 채팅
-categories: WPF PROJECT
+categories: WPF 프로젝트
 ---
 
 

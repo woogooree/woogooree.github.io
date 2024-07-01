@@ -4,7 +4,7 @@ title: C언어 포인터 개념정리
 date: '2024-06-01'
 author: 심우진
 tags: C언어 포인터
-categories: C언어계열
+categories: 기초공부
 ---
 
 ## 포인터란?

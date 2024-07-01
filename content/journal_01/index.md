@@ -4,7 +4,7 @@ title: (폴리텍학생기자단) 개발자 취직 코딩학원 vs 폴리텍대�
 date: '2024-05-23'
 author: 심우진
 tags: 폴리텍 코딩학원 개발자취직 진로
-categories: 프로젝트
+categories: 대외활동
 ---
 
 ## 고민하게 된 계기
