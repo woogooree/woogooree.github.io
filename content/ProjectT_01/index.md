@@ -43,7 +43,7 @@ categories: WPF PROJECT
 
 다음 게시글에 정리해놨음
 
-https://woogooree.github.io/projectT_02/
+https://woogooree.github.io/ProjectT_02/
 
 
 ## 결과물
