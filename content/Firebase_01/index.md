@@ -4,7 +4,7 @@ title: Firebase Function 사용법
 date: '2024-06-05'
 author: 심우진
 tags: 파이어베이스
-categories: DB
+categories: Cloud
 ---
 
 ## Firebase Functions 개요

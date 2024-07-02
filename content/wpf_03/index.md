@@ -4,7 +4,7 @@ title: WPF 데이터바인딩 더 알아보기
 date: '2024-06-09'
 author: 심우진
 tags: 데이터바인딩
-categories: WPF
+categories: Framework
 ---
 
 ## 데이터바인딩

@@ -4,7 +4,7 @@ title: WPF XAML과 코드비하인드(CS) 구조 이해
 date: '2024-06-08'
 author: 심우진
 tags: WPF XAML CS 그리드 
-categories: WPF
+categories: Framework
 ---
 
 ## 1. XAML

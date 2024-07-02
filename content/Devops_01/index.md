@@ -4,7 +4,7 @@ title: 데브옵스는 무슨 일을 하는가?
 date: '2024-06-04'
 author: 심우진
 tags: 데브옵스 클라우드 자동화 문서화
-categories: DevOps
+categories: Cloud
 
 ---
 
