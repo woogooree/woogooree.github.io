@@ -276,7 +276,7 @@ HANDLE setupSerialPort(const char* portName) {
 ```
 
 ### 설명
-1. **기능 코드 0x04 (Read Input Registers)**를 사용하여 전력 사용량 데이터를 요청한다.
+1. 기능 코드 0x04 (Read Input Registers)를 사용하여 전력 사용량 데이터를 요청한다.
 2. 요청 프레임을 구성하고 CRC를 계산하여 COM 포트를 통해 슬레이브 디바이스로 전송한다.
 3. 1시간마다 요청을 전송하는 루프를 통해 주기적으로 데이터를 요청한다.
 
