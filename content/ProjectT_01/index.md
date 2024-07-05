@@ -35,23 +35,16 @@ categories: 프로젝트
 
 ![SocketDiagram.png](./SocketDiagram.png)
 
-- 소켓을 이용한 리스너/클라이언트의 구조를 파악하고 각 메서드의 역할을 나눠서 구현하게끔 노력
-- 패킷리더와 패킷빌더를 정의하고 메시지 전송부분이 파싱되는 구조를 이해하려고 노력
-
-
-## 소스코드 구성
-
-다음 게시글에 정리해놨음
-
-https://woogooree.github.io/ProjectT_02/
+- 소켓을 이용한 리스너/클라이언트의 구조를 파악하고 각 메서드의 역할을 나늠
+- 패킷리더와 패킷빌더를 정의하고 메시지 전송부분이 파싱되는 구조
 
 
 ## 결과물
 
 ![VanillaChat.png](./VanillaChat.png)
 
-배울게 정말 많은 프로젝트 였음!
-
+### 소스코드 링크
+https://woogooree.github.io/ProjectT_02/
 
 ```toc
 
