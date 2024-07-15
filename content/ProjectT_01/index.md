@@ -44,7 +44,7 @@ categories: 프로젝트
 ![VanillaChat.png](./VanillaChat.png)
 
 ### 소스코드 링크
-https://woogooree.github.io/ProjectT_02/
+https://woogooree.github.io/projectT_02/
 
 ```toc
 
